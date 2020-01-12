@@ -17,8 +17,8 @@ jobs:
           python-version: 3.7
       - name: Install dependencies
         run: |
-          apt update
-          apt install pandoc
+          apt-get update
+          apt-get install pandoc
           pip install -r requirements.txt
       - name: Build Sphinx docs
         run: |
