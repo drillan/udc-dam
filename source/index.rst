@@ -11,6 +11,7 @@
    :caption: Contents:
 
    notebooks/scattergeo
+   notebooks/rst_sample
 
 Indices and tables
 ==================
