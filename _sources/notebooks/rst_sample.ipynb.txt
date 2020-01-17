@@ -1,0 +1,66 @@
+{
+ "cells": [
+  {
+   "cell_type": "raw",
+   "metadata": {
+    "raw_mimetype": "text/restructuredtext"
+   },
+   "source": [
+    "reStructuredTextサンプル\n",
+    "========================\n",
+    "\n",
+    "ディレクティブ\n",
+    "--------------\n",
+    "\n",
+    ":index:`rubric` を用いると、 :index:`脚注` [#footnote1]_ が作成できます。\n",
+    "\n",
+    ":index:`note` や :index:`warning` ブロックが表現できます。\n",
+    "\n",
+    ".. note:: これはnoteです\n",
+    "   これはnoteです\n",
+    "\n",
+    ".. warning:: これはwarningです\n",
+    "   これはwarningです\n",
+    "\n",
+    ":index:`literalinclude` を用いると、スクリプトファイルから引用ができ、特定の行をハイライトできます。\n",
+    "\n",
+    ".. literalinclude:: example.py\n",
+    "   :language: python\n",
+    "   :emphasize-lines: 12,15-18\n",
+    "\n",
+    ":index:`numref` を用いると、 :numref:`python_logo` のように図の番号を参照できます。\n",
+    "\n",
+    ".. figure:: https://www.python.org/static/img/python-logo.png\n",
+    "   :name: python_logo\n",
+    "\n",
+    "   ぱいそんのろご\n",
+    "\n",
+    ".. rubric:: 脚注\n",
+    "\n",
+    ".. [#footnote1] これは脚注です"
+   ]
+  }
+ ],
+ "metadata": {
+  "celltoolbar": "Raw Cell Format",
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
